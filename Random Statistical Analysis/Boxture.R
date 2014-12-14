@@ -11,6 +11,7 @@ system.time(data <- xmlToDataFrame(shipments))
 
 # head(data)
 
+#Adding additions. Let's see.
 data$Price <- format(data$Price, digits = 2)
 data$Price <- as.numeric(data$Price)
 data$Price <- format(data$Price, digits = 2)
